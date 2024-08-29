@@ -57,6 +57,6 @@ RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
 # RUN php artisan key:generate
 
-RUN php artisan optimize
+# RUN php artisan optimize
 
 # RUN php artisan migrate
